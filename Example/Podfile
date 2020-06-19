@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BTImageExtension_Example' do
+  pod 'BTImageExtension', :path => '../'
+
+  target 'BTImageExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
