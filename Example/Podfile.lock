@@ -1,0 +1,16 @@
+PODS:
+  - BTImageExtension (0.1.0)
+
+DEPENDENCIES:
+  - BTImageExtension (from `../`)
+
+EXTERNAL SOURCES:
+  BTImageExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTImageExtension: c3a0d14d17fdef93ec8981595a93092a23725619
+
+PODFILE CHECKSUM: 34f5fd0a6e12e86d40f7b64af018e365036f56c2
+
+COCOAPODS: 1.8.4

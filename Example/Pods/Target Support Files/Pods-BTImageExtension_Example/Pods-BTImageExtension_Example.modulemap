@@ -1,0 +1,6 @@
+framework module Pods_BTImageExtension_Example {
+  umbrella header "Pods-BTImageExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

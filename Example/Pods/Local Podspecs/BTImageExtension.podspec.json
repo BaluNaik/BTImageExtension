@@ -1,0 +1,22 @@
+{
+  "name": "BTImageExtension",
+  "version": "0.1.0",
+  "summary": "A short description of BTImageExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BaluNaik/BTImageExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BaluNaik": "balu.naik@namshi.com"
+  },
+  "source": {
+    "git": "https://github.com/BaluNaik/BTImageExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BTImageExtension/Classes/**/*"
+}

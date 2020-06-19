@@ -1,0 +1,6 @@
+framework module BTImageExtension {
+  umbrella header "BTImageExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
