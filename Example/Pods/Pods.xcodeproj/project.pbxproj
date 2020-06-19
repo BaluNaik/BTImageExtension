@@ -12,9 +12,10 @@
 		4B62B64D680BCCB2217CD475032054DC /* Pods-BTImageExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724EA61C036CEA29848C0002E099246 /* Pods-BTImageExtension_Tests-dummy.m */; };
 		616B5144B4E896402D5765218A04CFC0 /* Pods-BTImageExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8D7E23337CA130786913B064E80C5 /* Pods-BTImageExtension_Example-dummy.m */; };
 		6C745226ADDC0FA107609C65060F7BAF /* BTImageExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB45651FF77C1E113881A81441353E /* BTImageExtension-dummy.m */; };
-		7D0575EC95C3E1FCBF724CEBF2633A92 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345690B74639477B70AE753F8D710A7A /* ReplaceMe.swift */; };
 		90170D33E38E3E710DDF2D6A0E99C744 /* Pods-BTImageExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA1204CA97E29E93D83BB059BFCC97F /* Pods-BTImageExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97732E6E2B753F2895D159214D5E75A9 /* Pods-BTImageExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFF323962617CE6A21F791CEBE85E7B /* Pods-BTImageExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5A67DE5249C6B3900B16159 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A5A67DE3249C6B3900B16159 /* .gitkeep */; };
+		A5A67DE8249C6B5300B16159 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A67DE7249C6B5300B16159 /* UIImageExtension.swift */; };
 		B111DC67A365F2FF3703BD74426542C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B3D62D16EA84A18231101D4395ACE0C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -43,30 +44,31 @@
 		19AD611D9109C8AD6511E9C0746CE2B1 /* Pods-BTImageExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTImageExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1EEF27714ACABE626F1C7DF5B09B9774 /* Pods-BTImageExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTImageExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		345690B74639477B70AE753F8D710A7A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BTImageExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		3B41A85C97B5F1102213281A432A5811 /* BTImageExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTImageExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B41A85C97B5F1102213281A432A5811 /* BTImageExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BTImageExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		41F8D7E23337CA130786913B064E80C5 /* Pods-BTImageExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTImageExtension_Example-dummy.m"; sourceTree = "<group>"; };
 		4FAA1689A218803A667F2DD15AE14853 /* BTImageExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTImageExtension.modulemap; sourceTree = "<group>"; };
 		6280F701D3FA4D1CACCF9F9646C517D3 /* Pods-BTImageExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTImageExtension_Example.modulemap"; sourceTree = "<group>"; };
-		6402202EBB60EC015F12B6411E578871 /* Pods_BTImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTImageExtension_Tests.framework; path = "Pods-BTImageExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6402202EBB60EC015F12B6411E578871 /* Pods_BTImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTImageExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EB29A0B7E42CEC3B5FB52FDF58AC3D /* Pods-BTImageExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTImageExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B637C8E7D25970C8B212E2E1D50D11A /* BTImageExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTImageExtension-umbrella.h"; sourceTree = "<group>"; };
 		7CFB45651FF77C1E113881A81441353E /* BTImageExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTImageExtension-dummy.m"; sourceTree = "<group>"; };
 		95EE7045C86A14FABFDF074A58A40E94 /* Pods-BTImageExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTImageExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5A67DE3249C6B3900B16159 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A5A67DE7249C6B5300B16159 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		ABFFE5313C76578178FB4BDDF7CC7081 /* Pods-BTImageExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTImageExtension_Tests.modulemap"; sourceTree = "<group>"; };
 		AE3DE13FA87DD6A98FDEEA9A07163408 /* Pods-BTImageExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTImageExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B490E26879A376E5B380F8C181353C35 /* Pods-BTImageExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTImageExtension_Tests-Info.plist"; sourceTree = "<group>"; };
-		B656B5C231E5C1DF326813E0FFFB552F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B656B5C231E5C1DF326813E0FFFB552F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BAEB1E025BDCD91D5065BD79C278C32F /* BTImageExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTImageExtension.xcconfig; sourceTree = "<group>"; };
 		C3279C6AF2AE4C7B512760C1D7C2B7E5 /* Pods-BTImageExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTImageExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C4B1DE2E8EFEB71F0E172C409B826707 /* BTImageExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTImageExtension-Info.plist"; sourceTree = "<group>"; };
-		C869484370802409A424FBE6AE2B616E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C869484370802409A424FBE6AE2B616E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CEFF323962617CE6A21F791CEBE85E7B /* Pods-BTImageExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTImageExtension_Example-umbrella.h"; sourceTree = "<group>"; };
-		D8064E02F0F8191D424BA980C349B00D /* Pods_BTImageExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTImageExtension_Example.framework; path = "Pods-BTImageExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8064E02F0F8191D424BA980C349B00D /* Pods_BTImageExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTImageExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA1204CA97E29E93D83BB059BFCC97F /* Pods-BTImageExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTImageExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E302C7C943632E46D5D2D8BA611A97D8 /* Pods-BTImageExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTImageExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E83843DB5C00DACDC9B73B2423FEE97D /* BTImageExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTImageExtension.framework; path = BTImageExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83843DB5C00DACDC9B73B2423FEE97D /* BTImageExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTImageExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89D35BC49E5D6990350A6F991E8CD7B /* Pods-BTImageExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTImageExtension_Example-Info.plist"; sourceTree = "<group>"; };
 		FF903C8AEA3B16D2A7F48B27DF4C58CD /* Pods-BTImageExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTImageExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +159,16 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		A5A67DE2249C6B3900B16159 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5A67DE3249C6B3900B16159 /* .gitkeep */,
+				A5A67DE7249C6B5300B16159 /* UIImageExtension.swift */,
+			);
+			name = Classes;
+			path = BTImageExtension/Classes;
+			sourceTree = "<group>";
+		};
 		AD2D196D56F7FF2B8E45B3EFC184F5B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,7 +198,7 @@
 		BF8FD72C4E6F5B5B88A085D727477B0E /* BTImageExtension */ = {
 			isa = PBXGroup;
 			children = (
-				345690B74639477B70AE753F8D710A7A /* ReplaceMe.swift */,
+				A5A67DE2249C6B3900B16159 /* Classes */,
 				79CFDA6C4E3ED5524917802B96799B75 /* Pod */,
 				196F4005A80BE0E752408B1A83C150AB /* Support Files */,
 			);
@@ -315,6 +327,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					93DFEC0B00AF81CC53DC2928EEC4EBF0 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -355,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A67DE5249C6B3900B16159 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C745226ADDC0FA107609C65060F7BAF /* BTImageExtension-dummy.m in Sources */,
-				7D0575EC95C3E1FCBF724CEBF2633A92 /* ReplaceMe.swift in Sources */,
+				A5A67DE8249C6B5300B16159 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BAEB1E025BDCD91D5065BD79C278C32F /* BTImageExtension.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -428,6 +447,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BAEB1E025BDCD91D5065BD79C278C32F /* BTImageExtension.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -620,8 +641,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

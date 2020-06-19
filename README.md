@@ -22,7 +22,7 @@ pod 'BTImageExtension'
 
 ## Author
 
-BaluNaik, balu.naik@namshi.com
+BaluNaik, dbalunayak@gmail.com
 
 ## License
 
